@@ -13,7 +13,7 @@ def main():
     logger.debug('Classes instantiated successfully.')
 
     logger.debug('Acquiring player data...')
-    data = rf.get_player_current_game(player_name='VC É NOSSO')
+    data = rf.get_player_current_game(player_name='SHINI 1407')
     if data:
         tp.send_data_to_kafka(data)
 
