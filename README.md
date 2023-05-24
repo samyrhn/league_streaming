@@ -23,7 +23,7 @@ The producer app is a LambdaFunction running a python code, which is triggered b
 
 # Network
 
-All of the AWS resources are inside the same VPC. In this VPC, there are 2 subnets, with 2 route tables for each, which provides 2 network connections. Besides configuring the network in AWS, it is also necessary to properly configure the Kafka 'ADERTISED_LISTENERS' parameter in the Broker's configuration, pointing it the Private IP of the EC2 instance running Kafka.
+All of the AWS resources are inside the same VPC. In this VPC, there are 2 subnets, with 2 route tables for each, which provides 2 network connections. Besides configuring the network in AWS, it is also necessary to properly configure the Kafka 'ADERTISED_LISTENERS' parameter in the Broker's configuration, pointing it to the Private IP of the EC2 instance running Kafka.
 
 For establishing a functional connection in AWS, it will be necessary to configure the route tables as the following:
 
