@@ -3,7 +3,7 @@
 
 The purpose of this personal project is to create a streaming pipeline for League of Legends matches.
 
-As soon as a match of a certain player starts, this information is gathered from the official Riot Games API and sent to a Kafka topic.
+When a match of a certain player starts, this information is gathered from the official Riot Games API and sent to a Kafka topic (with the maximum delay of 1 minute).
 
 This project is for studying purposes only.
 
